@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0DF2A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift */; };
+		C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E12A73B559009C0020 /* ToolbarsBackgroundGradient.swift */; };
+		C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E32A73C5E3009C0020 /* ToolbarPattern.swift */; };
+		C38AF0E62A73EE06009C0020 /* ToolbarElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E52A73EE06009C0020 /* ToolbarElements.swift */; };
+		C38AF0E82A73F434009C0020 /* ToolbarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E72A73F434009C0020 /* ToolbarButtons.swift */; };
+		C38AF0EA2A7439B4009C0020 /* ToolbarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E92A7439B4009C0020 /* ToolbarLayout.swift */; };
 		C3917A272A6ED226006CC5E9 /* SideButtonsDimPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A262A6ED226006CC5E9 /* SideButtonsDimPreview.swift */; };
 		C3917A2D2A704963006CC5E9 /* MasksIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A2C2A704963006CC5E9 /* MasksIcon.swift */; };
 		C3917A2F2A704974006CC5E9 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A2E2A704974006CC5E9 /* SFSymbols.swift */; };
 		C3917A312A704D8A006CC5E9 /* GradientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A302A704D8A006CC5E9 /* GradientExample.swift */; };
+		C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A332A717EDA006CC5E9 /* Toolbars.swift */; };
+		C3917A362A717F4E006CC5E9 /* ToolbarPatternStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A352A717F4E006CC5E9 /* ToolbarPatternStyle.swift */; };
+		C3917A392A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A382A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift */; };
+		C3917A3B2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A3A2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift */; };
+		C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A3C2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift */; };
+		C3917A3F2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A3E2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift */; };
+		C3917A412A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A402A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift */; };
+		C3917A432A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3917A422A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift */; };
 		C3AB39422A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB39412A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift */; };
 		C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB39432A6EA19B000EFA78 /* ContentView.swift */; };
 		C3AB39462A6EA19C000EFA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3AB39452A6EA19C000EFA78 /* Assets.xcassets */; };
@@ -24,10 +38,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C38AF0DF2A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsBackgroundGradientParent.swift; sourceTree = "<group>"; };
+		C38AF0E12A73B559009C0020 /* ToolbarsBackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsBackgroundGradient.swift; sourceTree = "<group>"; };
+		C38AF0E32A73C5E3009C0020 /* ToolbarPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPattern.swift; sourceTree = "<group>"; };
+		C38AF0E52A73EE06009C0020 /* ToolbarElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarElements.swift; sourceTree = "<group>"; };
+		C38AF0E72A73F434009C0020 /* ToolbarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtons.swift; sourceTree = "<group>"; };
+		C38AF0E92A7439B4009C0020 /* ToolbarLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarLayout.swift; sourceTree = "<group>"; };
 		C3917A262A6ED226006CC5E9 /* SideButtonsDimPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonsDimPreview.swift; sourceTree = "<group>"; };
 		C3917A2C2A704963006CC5E9 /* MasksIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasksIcon.swift; sourceTree = "<group>"; };
 		C3917A2E2A704974006CC5E9 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		C3917A302A704D8A006CC5E9 /* GradientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientExample.swift; sourceTree = "<group>"; };
+		C3917A332A717EDA006CC5E9 /* Toolbars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbars.swift; sourceTree = "<group>"; };
+		C3917A352A717F4E006CC5E9 /* ToolbarPatternStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPatternStyle.swift; sourceTree = "<group>"; };
+		C3917A382A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsBackgroundGradientKids.swift; sourceTree = "<group>"; };
+		C3917A3A2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopToolbarBorderGradientKids.swift; sourceTree = "<group>"; };
+		C3917A3C2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarBorderGradientKids.swift; sourceTree = "<group>"; };
+		C3917A3E2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBorderGradient.swift; sourceTree = "<group>"; };
+		C3917A402A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopToolbarBorderGradientParens.swift; sourceTree = "<group>"; };
+		C3917A422A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarBorderGradientParents.swift; sourceTree = "<group>"; };
 		C3AB393E2A6EA19B000EFA78 /* MakingWatchTheBirdie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakingWatchTheBirdie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AB39412A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingWatchTheBirdieApp.swift; sourceTree = "<group>"; };
 		C3AB39432A6EA19B000EFA78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +80,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C38AF0DD2A73B524009C0020 /* ToolbarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				C38AF0E12A73B559009C0020 /* ToolbarsBackgroundGradient.swift */,
+				C3917A382A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift */,
+				C38AF0DF2A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift */,
+			);
+			path = ToolbarBackground;
+			sourceTree = "<group>";
+		};
+		C38AF0DE2A73B536009C0020 /* ToolbarBorder */ = {
+			isa = PBXGroup;
+			children = (
+				C3917A3E2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift */,
+				C3917A3A2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift */,
+				C3917A3C2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift */,
+				C3917A402A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift */,
+				C3917A422A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift */,
+			);
+			path = ToolbarBorder;
+			sourceTree = "<group>";
+		};
 		C3917A292A70491F006CC5E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +110,28 @@
 				C3917A302A704D8A006CC5E9 /* GradientExample.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		C3917A322A717EC8006CC5E9 /* Toolbars */ = {
+			isa = PBXGroup;
+			children = (
+				C3917A332A717EDA006CC5E9 /* Toolbars.swift */,
+				C3917A352A717F4E006CC5E9 /* ToolbarPatternStyle.swift */,
+				C38AF0E32A73C5E3009C0020 /* ToolbarPattern.swift */,
+				C38AF0E52A73EE06009C0020 /* ToolbarElements.swift */,
+				C38AF0E72A73F434009C0020 /* ToolbarButtons.swift */,
+				C38AF0E92A7439B4009C0020 /* ToolbarLayout.swift */,
+			);
+			path = Toolbars;
+			sourceTree = "<group>";
+		};
+		C3917A372A7183F2006CC5E9 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				C38AF0DE2A73B536009C0020 /* ToolbarBorder */,
+				C38AF0DD2A73B524009C0020 /* ToolbarBackground */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 		C3AB39352A6EA19B000EFA78 = {
@@ -81,6 +153,8 @@
 		C3AB39402A6EA19B000EFA78 /* MakingWatchTheBirdie */ = {
 			isa = PBXGroup;
 			children = (
+				C3917A372A7183F2006CC5E9 /* Gradients */,
+				C3917A322A717EC8006CC5E9 /* Toolbars */,
 				C3917A292A70491F006CC5E9 /* Images */,
 				C3AB39542A6EAA1F000EFA78 /* Core */,
 				C3AB394F2A6EA5E1000EFA78 /* Buttons */,
@@ -193,15 +267,29 @@
 			files = (
 				C3AB395E2A6EB02C000EFA78 /* SideButtonLayout.swift in Sources */,
 				C3917A2D2A704963006CC5E9 /* MasksIcon.swift in Sources */,
+				C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */,
+				C3917A3B2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift in Sources */,
 				C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */,
+				C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */,
 				C3917A2F2A704974006CC5E9 /* SFSymbols.swift in Sources */,
+				C3917A3F2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift in Sources */,
+				C38AF0E82A73F434009C0020 /* ToolbarButtons.swift in Sources */,
 				C3AB39532A6EAA15000EFA78 /* ToolbarButton.swift in Sources */,
+				C3917A412A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift in Sources */,
+				C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */,
+				C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */,
+				C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */,
 				C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */,
 				C3AB395C2A6EACA2000EFA78 /* ScreenSide.swift in Sources */,
 				C3AB39512A6EA5F1000EFA78 /* CaptureButton.swift in Sources */,
+				C38AF0E62A73EE06009C0020 /* ToolbarElements.swift in Sources */,
+				C3917A392A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift in Sources */,
+				C38AF0EA2A7439B4009C0020 /* ToolbarLayout.swift in Sources */,
 				C3917A272A6ED226006CC5E9 /* SideButtonsDimPreview.swift in Sources */,
 				C3AB39562A6EAA29000EFA78 /* AccessLevel.swift in Sources */,
+				C3917A432A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift in Sources */,
 				C3AB39422A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift in Sources */,
+				C3917A362A717F4E006CC5E9 /* ToolbarPatternStyle.swift in Sources */,
 				C3917A312A704D8A006CC5E9 /* GradientExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +427,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,7 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

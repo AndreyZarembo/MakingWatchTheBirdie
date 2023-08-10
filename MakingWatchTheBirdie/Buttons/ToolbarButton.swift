@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ToolbarButton: View {
     
+    let uuid = UUID()
     var accessLevel: AccessLevel
     let icon: String
     var iconPlaceTuning: CGPoint = CGPoint()
