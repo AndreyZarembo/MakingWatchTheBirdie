@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3712A83C87000B32064 /* ViewForPreview.swift */; };
+		C37EA3742A83E41500B32064 /* PreviewOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3732A83E41500B32064 /* PreviewOrientation.swift */; };
+		C37EA3762A83E45200B32064 /* PreviewLightDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3752A83E45200B32064 /* PreviewLightDark.swift */; };
+		C37EA3782A83E51E00B32064 /* PreviewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3772A83E51E00B32064 /* PreviewDevice.swift */; };
 		C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0DF2A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift */; };
 		C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E12A73B559009C0020 /* ToolbarsBackgroundGradient.swift */; };
 		C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AF0E32A73C5E3009C0020 /* ToolbarPattern.swift */; };
@@ -35,9 +39,16 @@
 		C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB39572A6EAC72000EFA78 /* SideButton.swift */; };
 		C3AB395C2A6EACA2000EFA78 /* ScreenSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */; };
 		C3AB395E2A6EB02C000EFA78 /* SideButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB395D2A6EB02C000EFA78 /* SideButtonLayout.swift */; };
+		C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A62A83F67700B90F4F /* LiveCoding.swift */; };
+		C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A82A83F68300B90F4F /* SimpleCard.swift */; };
+		C3C818AB2A83F9C700B90F4F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818AA2A83F9C700B90F4F /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C37EA3712A83C87000B32064 /* ViewForPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForPreview.swift; sourceTree = "<group>"; };
+		C37EA3732A83E41500B32064 /* PreviewOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewOrientation.swift; sourceTree = "<group>"; };
+		C37EA3752A83E45200B32064 /* PreviewLightDark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLightDark.swift; sourceTree = "<group>"; };
+		C37EA3772A83E51E00B32064 /* PreviewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevice.swift; sourceTree = "<group>"; };
 		C38AF0DF2A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsBackgroundGradientParent.swift; sourceTree = "<group>"; };
 		C38AF0E12A73B559009C0020 /* ToolbarsBackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarsBackgroundGradient.swift; sourceTree = "<group>"; };
 		C38AF0E32A73C5E3009C0020 /* ToolbarPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPattern.swift; sourceTree = "<group>"; };
@@ -67,6 +78,9 @@
 		C3AB39572A6EAC72000EFA78 /* SideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButton.swift; sourceTree = "<group>"; };
 		C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSide.swift; sourceTree = "<group>"; };
 		C3AB395D2A6EB02C000EFA78 /* SideButtonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonLayout.swift; sourceTree = "<group>"; };
+		C3C818A62A83F67700B90F4F /* LiveCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoding.swift; sourceTree = "<group>"; };
+		C3C818A82A83F68300B90F4F /* SimpleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCard.swift; sourceTree = "<group>"; };
+		C3C818AA2A83F9C700B90F4F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37EA3702A83C85C00B32064 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				C37EA3712A83C87000B32064 /* ViewForPreview.swift */,
+				C37EA3732A83E41500B32064 /* PreviewOrientation.swift */,
+				C37EA3752A83E45200B32064 /* PreviewLightDark.swift */,
+				C37EA3772A83E51E00B32064 /* PreviewDevice.swift */,
+				C3C818A62A83F67700B90F4F /* LiveCoding.swift */,
+				C3C818A82A83F68300B90F4F /* SimpleCard.swift */,
+				C3C818AA2A83F9C700B90F4F /* State.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		C38AF0DD2A73B524009C0020 /* ToolbarBackground */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +181,7 @@
 		C3AB39402A6EA19B000EFA78 /* MakingWatchTheBirdie */ = {
 			isa = PBXGroup;
 			children = (
+				C37EA3702A83C85C00B32064 /* Preview */,
 				C3917A372A7183F2006CC5E9 /* Gradients */,
 				C3917A322A717EC8006CC5E9 /* Toolbars */,
 				C3917A292A70491F006CC5E9 /* Images */,
@@ -269,14 +298,19 @@
 				C3917A2D2A704963006CC5E9 /* MasksIcon.swift in Sources */,
 				C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */,
 				C3917A3B2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift in Sources */,
+				C37EA3762A83E45200B32064 /* PreviewLightDark.swift in Sources */,
 				C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */,
+				C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */,
 				C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */,
+				C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */,
 				C3917A2F2A704974006CC5E9 /* SFSymbols.swift in Sources */,
 				C3917A3F2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift in Sources */,
 				C38AF0E82A73F434009C0020 /* ToolbarButtons.swift in Sources */,
 				C3AB39532A6EAA15000EFA78 /* ToolbarButton.swift in Sources */,
 				C3917A412A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift in Sources */,
+				C3C818AB2A83F9C700B90F4F /* State.swift in Sources */,
 				C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */,
+				C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */,
 				C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */,
 				C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */,
 				C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */,
@@ -287,8 +321,10 @@
 				C38AF0EA2A7439B4009C0020 /* ToolbarLayout.swift in Sources */,
 				C3917A272A6ED226006CC5E9 /* SideButtonsDimPreview.swift in Sources */,
 				C3AB39562A6EAA29000EFA78 /* AccessLevel.swift in Sources */,
+				C37EA3782A83E51E00B32064 /* PreviewDevice.swift in Sources */,
 				C3917A432A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift in Sources */,
 				C3AB39422A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift in Sources */,
+				C37EA3742A83E41500B32064 /* PreviewOrientation.swift in Sources */,
 				C3917A362A717F4E006CC5E9 /* ToolbarPatternStyle.swift in Sources */,
 				C3917A312A704D8A006CC5E9 /* GradientExample.swift in Sources */,
 			);
