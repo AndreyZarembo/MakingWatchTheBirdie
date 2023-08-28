@@ -9,5 +9,6 @@ import Foundation
 
 enum AccessLevel {
     case kids
+    case ageCheck
     case parent
 }

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MakingWatchTheBirdieApp: App {
+    
+    @State var accessLevel: AccessLevel = .kids
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(accessLevel: $accessLevel)
         }
     }
 }

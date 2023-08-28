@@ -42,6 +42,17 @@
 		C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A62A83F67700B90F4F /* LiveCoding.swift */; };
 		C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A82A83F68300B90F4F /* SimpleCard.swift */; };
 		C3C818AB2A83F9C700B90F4F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818AA2A83F9C700B90F4F /* State.swift */; };
+		C3E60AC32A9CE9FA001728A0 /* AgeCheckAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABA2A9CE9FA001728A0 /* AgeCheckAnswerButton.swift */; };
+		C3E60AC42A9CE9FA001728A0 /* AgeCheckEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABB2A9CE9FA001728A0 /* AgeCheckEquation.swift */; };
+		C3E60AC52A9CE9FA001728A0 /* AgeCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABC2A9CE9FA001728A0 /* AgeCheckLayer.swift */; };
+		C3E60AC62A9CE9FA001728A0 /* AgeSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABD2A9CE9FA001728A0 /* AgeSwitchButton.swift */; };
+		C3E60AC72A9CE9FA001728A0 /* AgeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABE2A9CE9FA001728A0 /* AgeCheck.swift */; };
+		C3E60AC82A9CE9FA001728A0 /* AgeCheckEquationDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ABF2A9CE9FA001728A0 /* AgeCheckEquationDebug.swift */; };
+		C3E60AC92A9CE9FA001728A0 /* AgeCheckPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60AC02A9CE9FA001728A0 /* AgeCheckPreview.swift */; };
+		C3E60ACA2A9CE9FA001728A0 /* AgeCheckOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60AC12A9CE9FA001728A0 /* AgeCheckOperation.swift */; };
+		C3E60ACB2A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60AC22A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift */; };
+		C3E60ACD2A9CEAA5001728A0 /* AccessLevelStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ACC2A9CEAA5001728A0 /* AccessLevelStates.swift */; };
+		C3E60AD02A9CEB11001728A0 /* AgeCheckBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E60ACF2A9CEB11001728A0 /* AgeCheckBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +92,17 @@
 		C3C818A62A83F67700B90F4F /* LiveCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoding.swift; sourceTree = "<group>"; };
 		C3C818A82A83F68300B90F4F /* SimpleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCard.swift; sourceTree = "<group>"; };
 		C3C818AA2A83F9C700B90F4F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		C3E60ABA2A9CE9FA001728A0 /* AgeCheckAnswerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckAnswerButton.swift; sourceTree = "<group>"; };
+		C3E60ABB2A9CE9FA001728A0 /* AgeCheckEquation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckEquation.swift; sourceTree = "<group>"; };
+		C3E60ABC2A9CE9FA001728A0 /* AgeCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckLayer.swift; sourceTree = "<group>"; };
+		C3E60ABD2A9CE9FA001728A0 /* AgeSwitchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeSwitchButton.swift; sourceTree = "<group>"; };
+		C3E60ABE2A9CE9FA001728A0 /* AgeCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheck.swift; sourceTree = "<group>"; };
+		C3E60ABF2A9CE9FA001728A0 /* AgeCheckEquationDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckEquationDebug.swift; sourceTree = "<group>"; };
+		C3E60AC02A9CE9FA001728A0 /* AgeCheckPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckPreview.swift; sourceTree = "<group>"; };
+		C3E60AC12A9CE9FA001728A0 /* AgeCheckOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckOperation.swift; sourceTree = "<group>"; };
+		C3E60AC22A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeCheckEquationGenerator.swift; sourceTree = "<group>"; };
+		C3E60ACC2A9CEAA5001728A0 /* AccessLevelStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevelStates.swift; sourceTree = "<group>"; };
+		C3E60ACF2A9CEB11001728A0 /* AgeCheckBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +178,7 @@
 		C3917A372A7183F2006CC5E9 /* Gradients */ = {
 			isa = PBXGroup;
 			children = (
+				C3E60ACE2A9CEB08001728A0 /* AgeCheck */,
 				C38AF0DE2A73B536009C0020 /* ToolbarBorder */,
 				C38AF0DD2A73B524009C0020 /* ToolbarBackground */,
 			);
@@ -181,6 +204,7 @@
 		C3AB39402A6EA19B000EFA78 /* MakingWatchTheBirdie */ = {
 			isa = PBXGroup;
 			children = (
+				C3E60AB92A9CE9FA001728A0 /* Parents */,
 				C37EA3702A83C85C00B32064 /* Preview */,
 				C3917A372A7183F2006CC5E9 /* Gradients */,
 				C3917A322A717EC8006CC5E9 /* Toolbars */,
@@ -222,6 +246,31 @@
 				C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		C3E60AB92A9CE9FA001728A0 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				C3E60ABA2A9CE9FA001728A0 /* AgeCheckAnswerButton.swift */,
+				C3E60ABB2A9CE9FA001728A0 /* AgeCheckEquation.swift */,
+				C3E60ABC2A9CE9FA001728A0 /* AgeCheckLayer.swift */,
+				C3E60ABD2A9CE9FA001728A0 /* AgeSwitchButton.swift */,
+				C3E60ABE2A9CE9FA001728A0 /* AgeCheck.swift */,
+				C3E60ABF2A9CE9FA001728A0 /* AgeCheckEquationDebug.swift */,
+				C3E60AC02A9CE9FA001728A0 /* AgeCheckPreview.swift */,
+				C3E60AC12A9CE9FA001728A0 /* AgeCheckOperation.swift */,
+				C3E60AC22A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift */,
+				C3E60ACC2A9CEAA5001728A0 /* AccessLevelStates.swift */,
+			);
+			path = Parents;
+			sourceTree = "<group>";
+		};
+		C3E60ACE2A9CEB08001728A0 /* AgeCheck */ = {
+			isa = PBXGroup;
+			children = (
+				C3E60ACF2A9CEB11001728A0 /* AgeCheckBackground.swift */,
+			);
+			path = AgeCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +345,12 @@
 			files = (
 				C3AB395E2A6EB02C000EFA78 /* SideButtonLayout.swift in Sources */,
 				C3917A2D2A704963006CC5E9 /* MasksIcon.swift in Sources */,
+				C3E60AD02A9CEB11001728A0 /* AgeCheckBackground.swift in Sources */,
+				C3E60AC82A9CE9FA001728A0 /* AgeCheckEquationDebug.swift in Sources */,
 				C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */,
 				C3917A3B2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift in Sources */,
+				C3E60AC92A9CE9FA001728A0 /* AgeCheckPreview.swift in Sources */,
+				C3E60AC32A9CE9FA001728A0 /* AgeCheckAnswerButton.swift in Sources */,
 				C37EA3762A83E45200B32064 /* PreviewLightDark.swift in Sources */,
 				C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */,
 				C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */,
@@ -309,19 +362,26 @@
 				C3AB39532A6EAA15000EFA78 /* ToolbarButton.swift in Sources */,
 				C3917A412A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift in Sources */,
 				C3C818AB2A83F9C700B90F4F /* State.swift in Sources */,
+				C3E60AC72A9CE9FA001728A0 /* AgeCheck.swift in Sources */,
+				C3E60AC42A9CE9FA001728A0 /* AgeCheckEquation.swift in Sources */,
 				C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */,
 				C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */,
 				C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */,
+				C3E60ACD2A9CEAA5001728A0 /* AccessLevelStates.swift in Sources */,
+				C3E60ACA2A9CE9FA001728A0 /* AgeCheckOperation.swift in Sources */,
 				C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */,
 				C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */,
+				C3E60ACB2A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift in Sources */,
 				C3AB395C2A6EACA2000EFA78 /* ScreenSide.swift in Sources */,
 				C3AB39512A6EA5F1000EFA78 /* CaptureButton.swift in Sources */,
 				C38AF0E62A73EE06009C0020 /* ToolbarElements.swift in Sources */,
 				C3917A392A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift in Sources */,
 				C38AF0EA2A7439B4009C0020 /* ToolbarLayout.swift in Sources */,
 				C3917A272A6ED226006CC5E9 /* SideButtonsDimPreview.swift in Sources */,
+				C3E60AC62A9CE9FA001728A0 /* AgeSwitchButton.swift in Sources */,
 				C3AB39562A6EAA29000EFA78 /* AccessLevel.swift in Sources */,
 				C37EA3782A83E51E00B32064 /* PreviewDevice.swift in Sources */,
+				C3E60AC52A9CE9FA001728A0 /* AgeCheckLayer.swift in Sources */,
 				C3917A432A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift in Sources */,
 				C3AB39422A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift in Sources */,
 				C37EA3742A83E41500B32064 /* PreviewOrientation.swift in Sources */,

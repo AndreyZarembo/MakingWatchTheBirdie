@@ -1,16 +1,15 @@
 //
-//  ContentView.swift
+//  AgeCheckPreview.swift
 //  MakingWatchTheBirdie
 //
-//  Created by Andrey Zarembo-Godzyatskiy on 24.07.2023.
+//  Created by Andrey Zarembo-Godzyatskiy on 23.08.2023.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct AgeCheckPreview: View {
     
-    @Binding var accessLevel: AccessLevel
-
+    @State var accessLevel: AccessLevel = .kids
     
     var body: some View {
         
@@ -40,12 +39,11 @@ struct ContentView: View {
                 AgeCheckLayer(accessLevel: $accessLevel)
             }
         }
-        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AgeCheckPreview_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(accessLevel: .constant(.kids))
+        AgeCheckPreview()
     }
 }

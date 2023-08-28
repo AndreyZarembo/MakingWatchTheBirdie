@@ -25,6 +25,10 @@ struct ToolbarBorderGradient: View {
                 TopToolbarBorderGradientParens()
             case (.bottom, .parent):
                 BottomToolbarBorderGradientParents()
+            case (.top, .ageCheck):
+                TopToolbarBorderGradientParens()
+            case (.bottom, .ageCheck):
+                BottomToolbarBorderGradientParents()
             }
         }
         .frame(width: width+32, height: 4)
