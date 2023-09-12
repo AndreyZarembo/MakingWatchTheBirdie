@@ -39,6 +39,14 @@
 		C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB39572A6EAC72000EFA78 /* SideButton.swift */; };
 		C3AB395C2A6EACA2000EFA78 /* ScreenSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */; };
 		C3AB395E2A6EB02C000EFA78 /* SideButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB395D2A6EB02C000EFA78 /* SideButtonLayout.swift */; };
+		C3BD3EBD2AB0657D005B0DE2 /* AppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EB52AB0657D005B0DE2 /* AppBundle.swift */; };
+		C3BD3EBE2AB0657D005B0DE2 /* UrlOfImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EB62AB0657D005B0DE2 /* UrlOfImage.swift */; };
+		C3BD3EBF2AB0657D005B0DE2 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EB72AB0657D005B0DE2 /* MediaItem.swift */; };
+		C3BD3EC02AB0657D005B0DE2 /* GalleryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EB82AB0657D005B0DE2 /* GalleryGrid.swift */; };
+		C3BD3EC12AB0657D005B0DE2 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EB92AB0657D005B0DE2 /* GalleryItem.swift */; };
+		C3BD3EC22AB0657D005B0DE2 /* DummyContentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EBA2AB0657D005B0DE2 /* DummyContentSource.swift */; };
+		C3BD3EC32AB0657D005B0DE2 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EBB2AB0657D005B0DE2 /* Content.swift */; };
+		C3BD3EC42AB0657D005B0DE2 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD3EBC2AB0657D005B0DE2 /* Gallery.swift */; };
 		C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A62A83F67700B90F4F /* LiveCoding.swift */; };
 		C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818A82A83F68300B90F4F /* SimpleCard.swift */; };
 		C3C818AB2A83F9C700B90F4F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C818AA2A83F9C700B90F4F /* State.swift */; };
@@ -93,6 +101,14 @@
 		C3AB39572A6EAC72000EFA78 /* SideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButton.swift; sourceTree = "<group>"; };
 		C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSide.swift; sourceTree = "<group>"; };
 		C3AB395D2A6EB02C000EFA78 /* SideButtonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonLayout.swift; sourceTree = "<group>"; };
+		C3BD3EB52AB0657D005B0DE2 /* AppBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBundle.swift; sourceTree = "<group>"; };
+		C3BD3EB62AB0657D005B0DE2 /* UrlOfImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlOfImage.swift; sourceTree = "<group>"; };
+		C3BD3EB72AB0657D005B0DE2 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		C3BD3EB82AB0657D005B0DE2 /* GalleryGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryGrid.swift; sourceTree = "<group>"; };
+		C3BD3EB92AB0657D005B0DE2 /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		C3BD3EBA2AB0657D005B0DE2 /* DummyContentSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyContentSource.swift; sourceTree = "<group>"; };
+		C3BD3EBB2AB0657D005B0DE2 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		C3BD3EBC2AB0657D005B0DE2 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		C3C818A62A83F67700B90F4F /* LiveCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoding.swift; sourceTree = "<group>"; };
 		C3C818A82A83F68300B90F4F /* SimpleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCard.swift; sourceTree = "<group>"; };
 		C3C818AA2A83F9C700B90F4F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
@@ -212,6 +228,7 @@
 		C3AB39402A6EA19B000EFA78 /* MakingWatchTheBirdie */ = {
 			isa = PBXGroup;
 			children = (
+				C3BD3EB42AB0657D005B0DE2 /* Gallery */,
 				C3CFE6292AA8B25400ABFFA6 /* ViewBuilder */,
 				C3E60AB92A9CE9FA001728A0 /* Parents */,
 				C37EA3702A83C85C00B32064 /* Preview */,
@@ -255,6 +272,21 @@
 				C3AB395B2A6EACA2000EFA78 /* ScreenSide.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		C3BD3EB42AB0657D005B0DE2 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				C3BD3EB52AB0657D005B0DE2 /* AppBundle.swift */,
+				C3BD3EB62AB0657D005B0DE2 /* UrlOfImage.swift */,
+				C3BD3EB72AB0657D005B0DE2 /* MediaItem.swift */,
+				C3BD3EB82AB0657D005B0DE2 /* GalleryGrid.swift */,
+				C3BD3EB92AB0657D005B0DE2 /* GalleryItem.swift */,
+				C3BD3EBA2AB0657D005B0DE2 /* DummyContentSource.swift */,
+				C3BD3EBB2AB0657D005B0DE2 /* Content.swift */,
+				C3BD3EBC2AB0657D005B0DE2 /* Gallery.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 		C3CFE6292AA8B25400ABFFA6 /* ViewBuilder */ = {
@@ -366,8 +398,12 @@
 				C3AB395E2A6EB02C000EFA78 /* SideButtonLayout.swift in Sources */,
 				C3917A2D2A704963006CC5E9 /* MasksIcon.swift in Sources */,
 				C3CFE62F2AA8B25400ABFFA6 /* TupleViewToArray.swift in Sources */,
+				C3BD3EC32AB0657D005B0DE2 /* Content.swift in Sources */,
+				C3BD3EBD2AB0657D005B0DE2 /* AppBundle.swift in Sources */,
 				C3E60AD02A9CEB11001728A0 /* AgeCheckBackground.swift in Sources */,
 				C3E60AC82A9CE9FA001728A0 /* AgeCheckEquationDebug.swift in Sources */,
+				C3BD3EBE2AB0657D005B0DE2 /* UrlOfImage.swift in Sources */,
+				C3BD3EC12AB0657D005B0DE2 /* GalleryItem.swift in Sources */,
 				C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */,
 				C3917A3B2A73B24B006CC5E9 /* TopToolbarBorderGradientKids.swift in Sources */,
 				C3E60AC92A9CE9FA001728A0 /* AgeCheckPreview.swift in Sources */,
@@ -375,8 +411,10 @@
 				C37EA3762A83E45200B32064 /* PreviewLightDark.swift in Sources */,
 				C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */,
 				C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */,
+				C3BD3EC42AB0657D005B0DE2 /* Gallery.swift in Sources */,
 				C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */,
 				C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */,
+				C3BD3EC22AB0657D005B0DE2 /* DummyContentSource.swift in Sources */,
 				C3917A2F2A704974006CC5E9 /* SFSymbols.swift in Sources */,
 				C3917A3F2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift in Sources */,
 				C38AF0E82A73F434009C0020 /* ToolbarButtons.swift in Sources */,
@@ -387,12 +425,14 @@
 				C3C818AB2A83F9C700B90F4F /* State.swift in Sources */,
 				C3E60AC72A9CE9FA001728A0 /* AgeCheck.swift in Sources */,
 				C3E60AC42A9CE9FA001728A0 /* AgeCheckEquation.swift in Sources */,
+				C3BD3EC02AB0657D005B0DE2 /* GalleryGrid.swift in Sources */,
 				C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */,
 				C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */,
 				C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */,
 				C3E60ACD2A9CEAA5001728A0 /* AccessLevelStates.swift in Sources */,
 				C3E60ACA2A9CE9FA001728A0 /* AgeCheckOperation.swift in Sources */,
 				C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */,
+				C3BD3EBF2AB0657D005B0DE2 /* MediaItem.swift in Sources */,
 				C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */,
 				C3E60ACB2A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift in Sources */,
 				C3CFE6312AA8B25400ABFFA6 /* ViewArrayContainer.swift in Sources */,
