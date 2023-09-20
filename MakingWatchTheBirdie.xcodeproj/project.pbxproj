@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3290A2C2ABB3D1E00A41FE0 /* OperationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A152ABB3D1E00A41FE0 /* OperationInfo.swift */; };
+		C3290A2D2ABB3D1E00A41FE0 /* CombineEquations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A162ABB3D1E00A41FE0 /* CombineEquations.swift */; };
+		C3290A2E2ABB3D1E00A41FE0 /* DemoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A172ABB3D1E00A41FE0 /* DemoError.swift */; };
+		C3290A2F2ABB3D1E00A41FE0 /* CombineDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A182ABB3D1E00A41FE0 /* CombineDemo.swift */; };
+		C3290A302ABB3D1E00A41FE0 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1A2ABB3D1E00A41FE0 /* Math.swift */; };
+		C3290A312ABB3D1E00A41FE0 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1B2ABB3D1E00A41FE0 /* Coding.swift */; };
+		C3290A322ABB3D1E00A41FE0 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1C2ABB3D1E00A41FE0 /* Timing.swift */; };
+		C3290A332ABB3D1E00A41FE0 /* Collecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1D2ABB3D1E00A41FE0 /* Collecting.swift */; };
+		C3290A342ABB3D1E00A41FE0 /* SwiftCombineDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1E2ABB3D1E00A41FE0 /* SwiftCombineDemo.swift */; };
+		C3290A352ABB3D1E00A41FE0 /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A1F2ABB3D1E00A41FE0 /* Matching.swift */; };
+		C3290A362ABB3D1E00A41FE0 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A202ABB3D1E00A41FE0 /* Sequence.swift */; };
+		C3290A372ABB3D1E00A41FE0 /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A212ABB3D1E00A41FE0 /* Mapping.swift */; };
+		C3290A382ABB3D1E00A41FE0 /* Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A222ABB3D1E00A41FE0 /* Filtering.swift */; };
+		C3290A392ABB3D1E00A41FE0 /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A232ABB3D1E00A41FE0 /* Select.swift */; };
+		C3290A3A2ABB3D1E00A41FE0 /* Reducing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A242ABB3D1E00A41FE0 /* Reducing.swift */; };
+		C3290A3B2ABB3D1E00A41FE0 /* Subscribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A252ABB3D1E00A41FE0 /* Subscribing.swift */; };
+		C3290A3C2ABB3D1E00A41FE0 /* ItemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A262ABB3D1E00A41FE0 /* ItemPreview.swift */; };
+		C3290A3D2ABB3D1E00A41FE0 /* MapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A272ABB3D1E00A41FE0 /* MapDemo.swift */; };
+		C3290A3E2ABB3D1E00A41FE0 /* OperationInfoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A282ABB3D1E00A41FE0 /* OperationInfoCollection.swift */; };
+		C3290A3F2ABB3D1E00A41FE0 /* PublisherPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A292ABB3D1E00A41FE0 /* PublisherPreview.swift */; };
+		C3290A402ABB3D1E00A41FE0 /* OperationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A2A2ABB3D1E00A41FE0 /* OperationDemo.swift */; };
+		C3290A412ABB3D1E00A41FE0 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3290A2B2ABB3D1E00A41FE0 /* Operation.swift */; };
 		C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3712A83C87000B32064 /* ViewForPreview.swift */; };
 		C37EA3742A83E41500B32064 /* PreviewOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3732A83E41500B32064 /* PreviewOrientation.swift */; };
 		C37EA3762A83E45200B32064 /* PreviewLightDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EA3752A83E45200B32064 /* PreviewLightDark.swift */; };
@@ -68,6 +90,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3290A152ABB3D1E00A41FE0 /* OperationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationInfo.swift; sourceTree = "<group>"; };
+		C3290A162ABB3D1E00A41FE0 /* CombineEquations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineEquations.swift; sourceTree = "<group>"; };
+		C3290A172ABB3D1E00A41FE0 /* DemoError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoError.swift; sourceTree = "<group>"; };
+		C3290A182ABB3D1E00A41FE0 /* CombineDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineDemo.swift; sourceTree = "<group>"; };
+		C3290A1A2ABB3D1E00A41FE0 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		C3290A1B2ABB3D1E00A41FE0 /* Coding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		C3290A1C2ABB3D1E00A41FE0 /* Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
+		C3290A1D2ABB3D1E00A41FE0 /* Collecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collecting.swift; sourceTree = "<group>"; };
+		C3290A1E2ABB3D1E00A41FE0 /* SwiftCombineDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCombineDemo.swift; sourceTree = "<group>"; };
+		C3290A1F2ABB3D1E00A41FE0 /* Matching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
+		C3290A202ABB3D1E00A41FE0 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		C3290A212ABB3D1E00A41FE0 /* Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapping.swift; sourceTree = "<group>"; };
+		C3290A222ABB3D1E00A41FE0 /* Filtering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filtering.swift; sourceTree = "<group>"; };
+		C3290A232ABB3D1E00A41FE0 /* Select.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Select.swift; sourceTree = "<group>"; };
+		C3290A242ABB3D1E00A41FE0 /* Reducing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducing.swift; sourceTree = "<group>"; };
+		C3290A252ABB3D1E00A41FE0 /* Subscribing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscribing.swift; sourceTree = "<group>"; };
+		C3290A262ABB3D1E00A41FE0 /* ItemPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPreview.swift; sourceTree = "<group>"; };
+		C3290A272ABB3D1E00A41FE0 /* MapDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDemo.swift; sourceTree = "<group>"; };
+		C3290A282ABB3D1E00A41FE0 /* OperationInfoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationInfoCollection.swift; sourceTree = "<group>"; };
+		C3290A292ABB3D1E00A41FE0 /* PublisherPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublisherPreview.swift; sourceTree = "<group>"; };
+		C3290A2A2ABB3D1E00A41FE0 /* OperationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDemo.swift; sourceTree = "<group>"; };
+		C3290A2B2ABB3D1E00A41FE0 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		C37EA3712A83C87000B32064 /* ViewForPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForPreview.swift; sourceTree = "<group>"; };
 		C37EA3732A83E41500B32064 /* PreviewOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewOrientation.swift; sourceTree = "<group>"; };
 		C37EA3752A83E45200B32064 /* PreviewLightDark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLightDark.swift; sourceTree = "<group>"; };
@@ -140,6 +184,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3290A142ABB3D1E00A41FE0 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				C3290A152ABB3D1E00A41FE0 /* OperationInfo.swift */,
+				C3290A162ABB3D1E00A41FE0 /* CombineEquations.swift */,
+				C3290A172ABB3D1E00A41FE0 /* DemoError.swift */,
+				C3290A182ABB3D1E00A41FE0 /* CombineDemo.swift */,
+				C3290A192ABB3D1E00A41FE0 /* Examples */,
+				C3290A262ABB3D1E00A41FE0 /* ItemPreview.swift */,
+				C3290A272ABB3D1E00A41FE0 /* MapDemo.swift */,
+				C3290A282ABB3D1E00A41FE0 /* OperationInfoCollection.swift */,
+				C3290A292ABB3D1E00A41FE0 /* PublisherPreview.swift */,
+				C3290A2A2ABB3D1E00A41FE0 /* OperationDemo.swift */,
+				C3290A2B2ABB3D1E00A41FE0 /* Operation.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		C3290A192ABB3D1E00A41FE0 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				C3290A1A2ABB3D1E00A41FE0 /* Math.swift */,
+				C3290A1B2ABB3D1E00A41FE0 /* Coding.swift */,
+				C3290A1C2ABB3D1E00A41FE0 /* Timing.swift */,
+				C3290A1D2ABB3D1E00A41FE0 /* Collecting.swift */,
+				C3290A1E2ABB3D1E00A41FE0 /* SwiftCombineDemo.swift */,
+				C3290A1F2ABB3D1E00A41FE0 /* Matching.swift */,
+				C3290A202ABB3D1E00A41FE0 /* Sequence.swift */,
+				C3290A212ABB3D1E00A41FE0 /* Mapping.swift */,
+				C3290A222ABB3D1E00A41FE0 /* Filtering.swift */,
+				C3290A232ABB3D1E00A41FE0 /* Select.swift */,
+				C3290A242ABB3D1E00A41FE0 /* Reducing.swift */,
+				C3290A252ABB3D1E00A41FE0 /* Subscribing.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		C37EA3702A83C85C00B32064 /* Preview */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +309,7 @@
 		C3AB39402A6EA19B000EFA78 /* MakingWatchTheBirdie */ = {
 			isa = PBXGroup;
 			children = (
+				C3290A142ABB3D1E00A41FE0 /* Combine */,
 				C3BD3EB42AB0657D005B0DE2 /* Gallery */,
 				C3CFE6292AA8B25400ABFFA6 /* ViewBuilder */,
 				C3E60AB92A9CE9FA001728A0 /* Parents */,
@@ -400,8 +482,12 @@
 				C3CFE62F2AA8B25400ABFFA6 /* TupleViewToArray.swift in Sources */,
 				C3BD3EC32AB0657D005B0DE2 /* Content.swift in Sources */,
 				C3BD3EBD2AB0657D005B0DE2 /* AppBundle.swift in Sources */,
+				C3290A3D2ABB3D1E00A41FE0 /* MapDemo.swift in Sources */,
+				C3290A2D2ABB3D1E00A41FE0 /* CombineEquations.swift in Sources */,
 				C3E60AD02A9CEB11001728A0 /* AgeCheckBackground.swift in Sources */,
+				C3290A402ABB3D1E00A41FE0 /* OperationDemo.swift in Sources */,
 				C3E60AC82A9CE9FA001728A0 /* AgeCheckEquationDebug.swift in Sources */,
+				C3290A372ABB3D1E00A41FE0 /* Mapping.swift in Sources */,
 				C3BD3EBE2AB0657D005B0DE2 /* UrlOfImage.swift in Sources */,
 				C3BD3EC12AB0657D005B0DE2 /* GalleryItem.swift in Sources */,
 				C38AF0E22A73B559009C0020 /* ToolbarsBackgroundGradient.swift in Sources */,
@@ -412,15 +498,23 @@
 				C3AB39442A6EA19B000EFA78 /* ContentView.swift in Sources */,
 				C37EA3722A83C87000B32064 /* ViewForPreview.swift in Sources */,
 				C3BD3EC42AB0657D005B0DE2 /* Gallery.swift in Sources */,
+				C3290A392ABB3D1E00A41FE0 /* Select.swift in Sources */,
 				C38AF0E02A73B54A009C0020 /* ToolbarsBackgroundGradientParent.swift in Sources */,
+				C3290A412ABB3D1E00A41FE0 /* Operation.swift in Sources */,
 				C3C818A72A83F67700B90F4F /* LiveCoding.swift in Sources */,
+				C3290A362ABB3D1E00A41FE0 /* Sequence.swift in Sources */,
+				C3290A342ABB3D1E00A41FE0 /* SwiftCombineDemo.swift in Sources */,
 				C3BD3EC22AB0657D005B0DE2 /* DummyContentSource.swift in Sources */,
 				C3917A2F2A704974006CC5E9 /* SFSymbols.swift in Sources */,
 				C3917A3F2A73B2B1006CC5E9 /* ToolbarBorderGradient.swift in Sources */,
 				C38AF0E82A73F434009C0020 /* ToolbarButtons.swift in Sources */,
 				C3CFE62E2AA8B25400ABFFA6 /* ViewBuilderExample.swift in Sources */,
 				C3CFE6302AA8B25400ABFFA6 /* CustomContainer.swift in Sources */,
+				C3290A2F2ABB3D1E00A41FE0 /* CombineDemo.swift in Sources */,
+				C3290A3B2ABB3D1E00A41FE0 /* Subscribing.swift in Sources */,
 				C3AB39532A6EAA15000EFA78 /* ToolbarButton.swift in Sources */,
+				C3290A3C2ABB3D1E00A41FE0 /* ItemPreview.swift in Sources */,
+				C3290A382ABB3D1E00A41FE0 /* Filtering.swift in Sources */,
 				C3917A412A73B329006CC5E9 /* TopToolbarBorderGradientParens.swift in Sources */,
 				C3C818AB2A83F9C700B90F4F /* State.swift in Sources */,
 				C3E60AC72A9CE9FA001728A0 /* AgeCheck.swift in Sources */,
@@ -428,15 +522,24 @@
 				C3BD3EC02AB0657D005B0DE2 /* GalleryGrid.swift in Sources */,
 				C3917A342A717EDA006CC5E9 /* Toolbars.swift in Sources */,
 				C3C818A92A83F68300B90F4F /* SimpleCard.swift in Sources */,
+				C3290A312ABB3D1E00A41FE0 /* Coding.swift in Sources */,
 				C38AF0E42A73C5E3009C0020 /* ToolbarPattern.swift in Sources */,
+				C3290A3F2ABB3D1E00A41FE0 /* PublisherPreview.swift in Sources */,
 				C3E60ACD2A9CEAA5001728A0 /* AccessLevelStates.swift in Sources */,
+				C3290A3A2ABB3D1E00A41FE0 /* Reducing.swift in Sources */,
 				C3E60ACA2A9CE9FA001728A0 /* AgeCheckOperation.swift in Sources */,
+				C3290A2E2ABB3D1E00A41FE0 /* DemoError.swift in Sources */,
 				C3917A3D2A73B2A5006CC5E9 /* BottomToolbarBorderGradientKids.swift in Sources */,
+				C3290A302ABB3D1E00A41FE0 /* Math.swift in Sources */,
 				C3BD3EBF2AB0657D005B0DE2 /* MediaItem.swift in Sources */,
 				C3AB39582A6EAC72000EFA78 /* SideButton.swift in Sources */,
+				C3290A2C2ABB3D1E00A41FE0 /* OperationInfo.swift in Sources */,
 				C3E60ACB2A9CE9FA001728A0 /* AgeCheckEquationGenerator.swift in Sources */,
 				C3CFE6312AA8B25400ABFFA6 /* ViewArrayContainer.swift in Sources */,
+				C3290A332ABB3D1E00A41FE0 /* Collecting.swift in Sources */,
 				C3AB395C2A6EACA2000EFA78 /* ScreenSide.swift in Sources */,
+				C3290A3E2ABB3D1E00A41FE0 /* OperationInfoCollection.swift in Sources */,
+				C3290A352ABB3D1E00A41FE0 /* Matching.swift in Sources */,
 				C3AB39512A6EA5F1000EFA78 /* CaptureButton.swift in Sources */,
 				C38AF0E62A73EE06009C0020 /* ToolbarElements.swift in Sources */,
 				C3917A392A718417006CC5E9 /* ToolbarsBackgroundGradientKids.swift in Sources */,
@@ -447,6 +550,7 @@
 				C37EA3782A83E51E00B32064 /* PreviewDevice.swift in Sources */,
 				C3E60AC52A9CE9FA001728A0 /* AgeCheckLayer.swift in Sources */,
 				C3917A432A73B334006CC5E9 /* BottomToolbarBorderGradientParents.swift in Sources */,
+				C3290A322ABB3D1E00A41FE0 /* Timing.swift in Sources */,
 				C3AB39422A6EA19B000EFA78 /* MakingWatchTheBirdieApp.swift in Sources */,
 				C37EA3742A83E41500B32064 /* PreviewOrientation.swift in Sources */,
 				C3917A362A717F4E006CC5E9 /* ToolbarPatternStyle.swift in Sources */,
