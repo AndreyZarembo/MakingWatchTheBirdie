@@ -24,6 +24,7 @@ struct GalleryGrid: View {
     @State var prevYOffset: CGFloat = 0
     var viewMode: GridViewMode = .mediumPhotos
     @Binding var selectedImages: [UUID]
+    @Binding var selectionMode: Bool
     
     static let sizes: [GridViewMode: (minWidth: CGFloat, maxWidth: CGFloat, spacing: CGFloat, batchSize: Int)] = [
         .smallPhotos: (minWidth: 72, maxWidth: 82, spacing: 2, batchSize: 48),
@@ -59,18 +60,26 @@ struct GalleryGrid: View {
                         .aspectRatio(1, contentMode: .fill)
                         .overlay {
                             
-                            Button {
+                            if selectionMode {
+                                Button {
+                                    
+                                    if let index = selectedImages.firstIndex(of: image.id) {
+                                        selectedImages.remove(at: index)
+                                    }
+                                    else {
+                                        selectedImages.append(image.id)
+                                    }
+                                } label: {
+                                    Color.clear
+                                        .contentShape(Rectangle())
+                                        .clipShape(Rectangle())
+                                }
+                            }
+                            else {
                                 
-                                if let index = selectedImages.firstIndex(of: image.id) {
-                                    selectedImages.remove(at: index)
+                                NavigationLink(value: image) {
+                                    Color.clear
                                 }
-                                else {
-                                    selectedImages.append(image.id)
-                                }
-                            } label: {
-                                Color.clear
-                                .contentShape(Rectangle())
-                                .clipShape(Rectangle())
                             }
                         }
                     }

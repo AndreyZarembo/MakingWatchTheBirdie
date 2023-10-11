@@ -12,6 +12,7 @@ struct Gallery: View {
     @ObservedObject var content: Content = Content(contentSource: DummyContentSource())
     @State var viewMode: GridViewMode = .mediumPhotos
     @State var selectedImages: [UUID] = []
+    @State var selectionMode: Bool = false
     
     
     var body: some View {
@@ -19,7 +20,8 @@ struct Gallery: View {
             GalleryGrid(
                 content: content,
                 viewMode: viewMode, 
-                selectedImages: $selectedImages
+                selectedImages: $selectedImages,
+                selectionMode: $selectionMode
             )
             
             HStack() {

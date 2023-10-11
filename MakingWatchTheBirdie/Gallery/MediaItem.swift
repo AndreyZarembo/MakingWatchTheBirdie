@@ -12,3 +12,7 @@ struct MediaItem: Identifiable {
     let url: URL
     let photoQuality: Float
 }
+
+extension MediaItem: Hashable {
+    
+}
